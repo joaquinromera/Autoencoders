@@ -1,0 +1,21 @@
+{
+    "name": "autoencoder",
+    "version": "1.0.0",
+    "builtin-baseline": "6f29f12e82a8293156836ad81cc9bf5af41fe836",
+    "dependencies": [
+        {
+            "name": "frugally-deep"
+        },
+        {
+            "name": "juce"
+        },
+        {
+            "name": "gtest"
+        }
+    ],
+    "vcpkg-configuration": {
+        "overlay-ports": [
+            "./3rdParty"
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+[submodule "3rdParty/frugally-deep"]
+	path = 3rdParty/frugally-deep
+	url = https://github.com/Dobiasd/frugally-deep

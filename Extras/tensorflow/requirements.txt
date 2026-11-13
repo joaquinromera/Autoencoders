@@ -1,0 +1,16 @@
+# Versions for Python 3.8 that work on macOS ARM64
+# TensorFlow 2.13 is the earliest with ARM64 support
+# We use tf.keras aliased as keras to match original 2020 script behavior
+# Intended interpreter: Python >=3.8,<3.9
+numpy<1.24 ; python_version >= "3.8" and python_version < "3.9"
+tensorflow==2.13.0 ; python_version >= "3.8" and python_version < "3.9"
+scipy ; python_version >= "3.8" and python_version < "3.9"
+scikit-learn ; python_version >= "3.8" and python_version < "3.9"
+librosa ; python_version >= "3.8" and python_version < "3.9"
+tqdm ; python_version >= "3.8" and python_version < "3.9"
+h5py ; python_version >= "3.8" and python_version < "3.9"
+matplotlib ; python_version >= "3.8" and python_version < "3.9"
+mido ; python_version >= "3.8" and python_version < "3.9"
+python-rtmidi ; python_version >= "3.8" and python_version < "3.9"
+yt-dlp ; python_version >= "3.8" and python_version < "3.9"
+pygame ; python_version >= "3.8" and python_version < "3.9"
